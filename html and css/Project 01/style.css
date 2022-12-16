@@ -30,10 +30,14 @@
 
 .list .list-item{
     display: inline;
-    padding: 2rem;
+    font-size: 16px;
+    padding: 1rem;
+    font-weight: 450;
     color: #BFBFBF;
 }
-
+.list :nth-child(1){
+    color: black;
+}
 .nav-button{
     width: 146px;
     height: 55px;
@@ -44,12 +48,15 @@
     font-size: medium;
     /* font-family: 'Poppins'; */
     color: white;
+    /* margin-bottom: 3rem; */
+    
     
 }
 .heading-text{
     color:#3C2F60 ;
     font-size: 4rem;
-    font-weight: 630;
+    font-weight: 600;
+  
     width: 32rem;
     position:relative;
     top:2rem;
@@ -76,4 +83,10 @@
     width: 240px;
     height: 60px;
     border-radius: 12px;
+}
+
+.banner-container :nth-child(2){
+    margin-top: 25px;
+    /* margin-left: -3rem; */
+    
 }

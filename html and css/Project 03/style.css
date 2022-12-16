@@ -1,0 +1,170 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    font-family: "Poppins";
+
+    font-family: "Orbitron";
+}
+/* logo */
+.navbar-container>div{
+    margin-top: 10px;
+}
+/* navbar */
+.list{
+    /* margin-top: 2rem; */
+    margin-right: 13rem;
+}
+.list-item{
+    display: inline;
+    margin: 25px;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-button{
+    width:160px;
+    height:45px;
+    border-radius: 17px;
+    background-color: #ffff;
+    color: #676767;
+    border: 3px solid black;
+    font-size: 22px;
+    font-family: "Poppins";
+    position:absolute;
+    right:6rem;
+    top:18px;
+}
+
+ul :nth-child(1){
+    font-weight: 900;
+    
+}
+
+.search-icon{
+    position: absolute;
+    right:17rem;
+    top:20px;
+}
+.button-group{
+    display: flex;
+
+}
+
+/* heroo contents */
+
+.hero-container{
+    display: flex;
+   
+}
+.hero-container-right{
+    text-align: center;
+    margin: 3rem;
+    margin-top: 8rem;
+    
+}
+.hero-heading{
+    font-size: 55px;
+
+
+}
+
+
+.hero-description{
+    font-family: "Poppins";
+    text-align: center;
+    margin:3rem 9rem;
+    margin-top: 2rem;
+    font-size: small;
+    margin-bottom: 5rem;
+    color: #808080;
+}
+
+/* buttons */
+.button-email{
+    width: 230px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #ffff;
+    border: 3px solid black;
+    color: #676767;
+    font-size: 19px;
+    margin: 5px;
+    margin-bottom: 5rem;
+}
+
+.button-join{
+    width: 162px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: black;
+    color: #ffff;
+    font-size: 17px;
+    margin: 5px;
+    margin-bottom: 5rem;
+}
+/* image */
+
+.globe + div{
+    position: absolute;
+    left:6rem;
+    top: 8rem;
+    
+}
+
+.square{
+    position: relative;
+    top: 295px;
+    left: 15rem;
+}
+
+.square + span{
+    position: relative;
+    left: 57rem;
+    top:5rem;
+} 
+
+.star ~ .star {
+    position: relative;
+    left:16rem;
+    top:35rem;
+}
+
+/* .globe ~ span{
+    position: relative;
+    left: 7rem;
+    top:10rem;
+} */
+
+.globe{
+    position:relative;
+    top: 2rem;
+    left:21rem;
+   }
+
+
+
+
+/* contact us */
+
+.contact-heading{
+    font-family: "Orbitron";
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: large;
+    color: #808080;
+}
+
+.icons span{
+ margin: 0px 9px;
+}
+
+.icons span img{
+    width:30px;
+    height:30px;
+}
