@@ -1,0 +1,87 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+/* body{
+   background-image: url("./assets/bg.png");
+   background-repeat: no-repeat;
+   background-size: 100% ;
+} */
+*{
+    font-family: "Poppins";
+    font-family: "Montserrat";
+  
+
+  
+}
+body{
+    margin: 0px;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat; 
+   
+   background-size: cover;
+}
+
+.button-small{
+ 
+    width: 149px;
+    height: 39px;
+    border-radius: 6px;
+    background-color:#BA0CC5;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right:2rem;
+    top: 22px;
+   
+}
+
+
+    
+
+.list-item{
+   display: inline;
+   margin: 1rem 2rem 1rem 2rem;
+
+   color: #ffffff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 1rem ;
+}
+ .navbar img{
+ margin-left: 4rem;
+ margin-right: 0rem; 
+}  
+
+
+.hero{
+
+    /* position:absolute; */
+
+   text-align: center;
+}
+
+.hero-heading{
+
+    color: #FFFFFF;
+    font-size: 70px;
+    padding: 4rem 16rem 0rem 16rem;
+    /* padding-top: 7rem; */
+    margin-bottom: 0%;  
+}
+.hero-description{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 3rem;
+}
+.button-large{
+    width: 367px;
+    height: 73px;
+    border-radius: 9px;
+   background-color: #BA0CC5;
+   color: #FFFFFF;
+   border: none;
+   font-size: 25px;
+}

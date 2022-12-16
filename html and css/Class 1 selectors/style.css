@@ -1,0 +1,66 @@
+ /* universal selector */
+ /* *{
+    background-color: aliceblue;
+} */
+/* Class and Id selector */
+.fruit{
+    background-color: #FED54A }
+
+#greens{
+      background-color: rgba(172, 255, 47, 0.637);
+  }
+
+
+
+
+/* Element & individual selector */
+h1{
+    background-color: #51E1ED;
+    color: #03203C;
+   
+}
+p{
+    color: #383CC1;
+}
+
+/* And Chained Selector Must buy Leafy Vegetables.*/
+li.leaf.important{
+    color:#D82E2F;
+  }
+
+  /* Combined Selectors */
+p,span{
+    color:#2827CC;
+    font-size:large
+  }
+
+
+/* Inside Selector */
+div ul li {
+    color: #E83A59;
+  }
+
+  /* Direct child */
+  section > h4 {
+    color:#E21717;
+  }
+ /* Sibling Selector */
+ .sibling + li {
+    background-color:yellow;
+  }
+  
+  /* Pseudo Before Selector */
+  .leafy::before {
+    content: "\1F966"; 
+  }
+  
+  .fruit_head::before {
+    content: "\1F352"
+  }
+
+ /* Pseudo After Selector */
+  .bought::after {
+    content: "\2705"; 
+  }
+  
+ 

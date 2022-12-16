@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    font-family: 'Poppins';
+}
+.navbar-container{
+    padding: 2rem;
+    padding-left:6rem;
+}
+.navbar-container > div {
+    display: inline;
+  align-items: center;
+}
+.grow-list{
+ position:absolute;
+ left:14rem;
+ top:2rem;
+
+ 
+}
+.button-group{
+   position: absolute;
+   left:75rem;
+
+}
+
+/* .list{
+    display: inline;
+} */
+
+.list .list-item{
+    display: inline;
+    padding: 2rem;
+    color: #BFBFBF;
+}
+
+.nav-button{
+    width: 146px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #5955B3;
+    border-color: #5955B3;
+    border: none;
+    font-size: medium;
+    /* font-family: 'Poppins'; */
+    color: white;
+    
+}
+.heading-text{
+    color:#3C2F60 ;
+    font-size: 4rem;
+    font-weight: 630;
+    width: 32rem;
+    position:relative;
+    top:2rem;
+}
+
+.heading-text span {
+    color: #5955B3;
+    
+}
+.description{
+    width:25rem;
+   
+    color: #BFBFBF;
+}
+.banner-container{
+    display:flex;
+    flex-direction: row;
+    padding-left: 6rem;
+}
+
+.btn{
+    position:relative;
+    top:3rem;
+    width: 240px;
+    height: 60px;
+    border-radius: 12px;
+}
