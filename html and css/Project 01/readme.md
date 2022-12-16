@@ -1,2 +1,2 @@
 ## Project one Output
-[](./assets/p1output.PNG)
+![output](./assets/p1output.PNG)
