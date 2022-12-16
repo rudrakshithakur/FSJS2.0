@@ -1,2 +1,2 @@
 ## Project Two Output  
-![output](./assets/p2%20output.PNG)
+![Output](./assets/p2output.PNG)
