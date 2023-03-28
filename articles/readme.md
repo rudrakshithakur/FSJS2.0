@@ -8,4 +8,10 @@
 4.[ Css Positions](https://rudrakshithakur.hashnode.dev/css-positions)
 
 5.[ Git, GitHub & Markdown File](https://rudrakshithakur.hashnode.dev/git-github)
- 
+
+6.[Css Grid](https://rudrakshithakur.hashnode.dev/css-grid-layout)    
+
+
+7.[Introduction to Javascript (DT & Operators)](https://rudrakshithakur.hashnode.dev/introduction-to-javascript-dt-operators)
+
+8.[Beginners Guide to Arrays and Array methods in Javascript.](https://rudrakshithakur.hashnode.dev/beginners-guide-to-arrays-and-array-methods-in-javascript)
