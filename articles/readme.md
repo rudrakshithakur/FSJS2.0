@@ -15,3 +15,5 @@
 7.[Introduction to Javascript (DT & Operators)](https://rudrakshithakur.hashnode.dev/introduction-to-javascript-dt-operators)
 
 8.[Beginners Guide to Arrays and Array methods in Javascript.](https://rudrakshithakur.hashnode.dev/beginners-guide-to-arrays-and-array-methods-in-javascript)
+
+9.[Javascript Functions](https://rudrakshithakur.hashnode.dev/javascript-functions)
