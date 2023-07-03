@@ -6,8 +6,14 @@ console.log("\n");
 // 07. Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
 
 let var2 = ['ineuron','LCO','pw skills'];
-console.log("Q8)",var2.lastIndexOf('pw skills'));
+console.log("Q7)",var2.lastIndexOf('pw skills'));
 console.log("\n");
+// 08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
+let helo=" hello world";
+let new_helo = helo.trim();
+console.log("Q8)",new_helo);
+console.log("\n")
+
 // 09. Boolean value is either true or false.
 //     - Write three JavaScript statement example which provide truthy value.
 //     - Write three JavaScript statement example which provide falsy value.

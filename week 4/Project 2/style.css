@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto', sans-serif;
+   
+   
+
+   }
+   body{
+    background-color: #f0f4f5;
+   }
+.navbar{
+    display: flex;
+   
+}
+
+.list-item{
+   
+    display: inline;
+    margin: 25px;
+    font-weight: 550;
+    font-size: 17px;
+    color: rgb(32, 32, 32);
+
+}
+
+.green{
+    color: #20bc7e;
+}
+
+.steth{
+    position: relative;
+    width: 37rem;
+    margin-left:15rem;
+    z-index: 1;
+    /* background-blend-mode: multiply; */
+}
+
+.hero{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1275px;
+    margin-left: 4rem;
+    margin-top:3rem;
+    z-index: 2;
+}
+
+.head{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: -3rem;  
+}
+.headone{
+    margin-top: -3rem;
+
+
+}
+button{
+    background-color: #20bc7e;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.smallheading{
+    color:#7c7c7c;
+    /* letter-spacing: 1px; */
+   font-size: 17px;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+.bottom_angle{
+    margin-left: 15rem;
+}
+
+.mouse{
+   margin-top: 1rem;
+   margin-left:2rem;
+   margin-bottom:-4rem;
+}
+
+.greenball{
+    position: relative;
+    width: 28rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    z-index:2;
+}
+
+.orange{
+    /* position: absolute;
+    width:15rem;
+    z-index: 1; */
+    position: absolute;
+    margin-left: -383px;
+    margin-top: 4rem;
+    width: 24rem;
+    z-index: 3
+}
+
+.doctor{
+    position: absolute;
+    z-index: 4;
+    width: 28rem;
+    margin-left: -29rem;
+    margin-top: -4rem;
+}

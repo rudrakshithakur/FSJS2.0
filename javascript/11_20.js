@@ -37,14 +37,14 @@ console.log(`${DD}/${MM}/${YY} ${HH}:${mm}`);
 
 // 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 // ANSWER
-// let names= prompt("Enter your age");
-// let diff= 18-names;
-// if(names>=18){
-//     console.log("You are old enough to drive");
-// }
-// else{
-//     console.log(`wait for ${diff} years to drive`);
-// }
+let names= prompt("Enter your age");
+let diff= 18-names;
+if(names>=18){
+    console.log("You are old enough to drive");
+}
+else{
+    console.log(`wait for ${diff} years to drive`);
+}
 
 // 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
 
@@ -182,6 +182,6 @@ console.log(shoppingCart);
 console.log(shoppingCart);
 (shoppingCart.push('Sugar'));
 console.log(shoppingCart);
-
-
+shoppingCart[3]= 'Green Tea';
+console.log(shoppingCart);
 
