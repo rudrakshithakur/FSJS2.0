@@ -1,0 +1,355 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+
+}
+
+.list-item {
+    display: inline;
+    margin: 0px 12px;
+    font-size: 14px;
+    color: #d3d2d2;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.541) url('./Assets/Photos/futuristic-bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1rem; */
+    position: relative;
+    /* z-index: 2; */
+
+}
+
+.orangebtn {
+    background-color: #f4694c;
+    color: #ffff;
+    border: none;
+
+    font-weight: 600;
+
+}
+
+#op1 {
+    padding: 12px 31px;
+}
+
+#sign-in {
+    border: none;
+    background-color: rgba(245, 245, 220, 0);
+    color: #cecdcd;
+    font-weight: 500;
+
+}
+
+#mainhead {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#smallpara {
+    color: #8f8b8b;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Left side */
+
+#flexone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flextwo {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+#op2 {
+    padding: 12px 35px;
+}
+
+#whitebtn {
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 11px 34px;
+    margin-left: 1rem;
+
+}
+
+/*Right side */
+#right-main {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#flexthree {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidehead {
+    color: white;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#rightarrow {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+#white {
+    background-color: #ffffff;
+}
+
+.card {
+    width: 253px;
+    height: 400px;
+    /* Adjust the height of the card as needed */
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+    margin: 10px;
+    /* text-align: center; */
+
+}
+
+.cardimg {
+
+
+
+    width: 264px;
+    height: 325px;
+    object-fit: cover;
+    object-position: -239px 0px;
+}
+
+.cardimg1 {
+    width: 264px;
+    height: 325px;
+    object-fit: cover;
+    /* object-position: top right; */
+}
+
+.dw-btn {
+    background-color: #f4694c;
+    color: #ffff;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.action {
+    font-size: 13px;
+    color: #7f7f79;
+    font-weight: 500;
+}
+
+.flexfour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 225px;
+    height: 40px;
+}
+
+.card-p {
+    padding: 12px 14px;
+    backdrop-filter: blur(41px);
+    position: absolute;
+    margin-top: -117px;
+}
+
+.action1 {
+    font-size: 14px;
+    color: white;
+}
+
+/* white section */
+
+#wsec-head {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+#container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#flexfive {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+#game-p {
+    margin: 1rem;
+}
+
+#learnbtn {
+    border: 1px solid #f4694c;
+    background: none;
+    color: #f4694c;
+    padding: 16px 33px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+#img-container {
+    width: 490px;
+    height: 369px;
+}
+
+#war-img {
+    width: 490px;
+    height: 367px;
+    object-fit: cover;
+    /* margin-left: -2rem; */
+}
+
+#left-arrowbox {
+    width: 55px;
+    height: 55px;
+    background-color: #fde1db;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-arrowbox {
+    width: 55px;
+    height: 55px;
+    background-color: #f4694c;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sfour-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7rem;
+
+}
+
+.black-headers {
+    font-size: 37px;
+    font-weight: 800;
+    color: #121212;
+}
+
+#card-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 7rem;
+    gap: 4rem;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.card-head {
+    font-size: 22px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.grey-font {
+    font-size: 13px;
+    color: #828282
+}
+
+.category {
+    color: #f4694c;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#black-section {
+    background-color: #000308;
+}
+
+#backimg1 {
+    position: absolute;
+    z-index: 1;
+    margin-left: -5rem;
+    width: 884px;
+    margin-top: 10px;
+}
+
+#flexsix {
+    display: flex;
+    gap: 4rem;
+    margin: 0rem 8rem;
+}
+
+#bckimg2 {
+    position: absolute;
+    z-index: 1;
+    filter: brightness(28%);
+    width: 84rem;
+    margin-top: -5rem;
+    height: 420px;
+}
+
+#front-txt {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    margin-top: 8rem;
+}
+
+#footer {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+
+.list-head {
+    color: white;
+    font-size: 15px;
+}
+
+.grey-lists {
+    color: #5a5b60;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+    margin-top: 23px;
+}
+
+.grey-lists li {
+    margin-top: 12px;
+}
+
+hr {
+    border: none;
+    background-color: #828282;
+    height: 1px;
+}
+
+#bluefoot {
+    background-color: #000611;
+    height: 80px;
+}
